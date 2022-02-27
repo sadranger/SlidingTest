@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ind02_Nadella_Nithin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1a-5v-ykH">
+                                <rect key="frame" x="131" y="645" width="129" height="36"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Shuffle" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lxj-s8-8Fw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wq9-oT-9IW">
+                                <rect key="frame" x="103" y="727" width="184" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Show Answer" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Ce-el-Ynf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nithin Nadella" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdx-S8-PZE">
+                                <rect key="frame" x="81" y="74" width="228" height="43"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
+                                <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-0-0" translatesAutoresizingMaskIntoConstraints="NO" id="xOd-M7-qK2">
+                                <rect key="frame" x="10" y="140" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3n9-uF-HZy" appends="YES" id="Oar-Gu-Ajj"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-0-1" translatesAutoresizingMaskIntoConstraints="NO" id="cqC-MP-cwh">
+                                <rect key="frame" x="10" y="233" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="vHs-b9-Klh" appends="YES" id="rvu-fG-BBc"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-0-2" translatesAutoresizingMaskIntoConstraints="NO" id="JUQ-1n-AmP">
+                                <rect key="frame" x="10" y="326" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Vft-cD-uZd" appends="YES" id="t0K-Q2-9xk"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-0-3" translatesAutoresizingMaskIntoConstraints="NO" id="JUQ-7H-i19">
+                                <rect key="frame" x="10" y="419" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AYu-JL-nEL" appends="YES" id="PLq-Ah-zq7"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-0-4" translatesAutoresizingMaskIntoConstraints="NO" id="01P-BC-VEu">
+                                <rect key="frame" x="10" y="512" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ibU-QF-7w3" appends="YES" id="We8-13-uh2"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-1-0" translatesAutoresizingMaskIntoConstraints="NO" id="CqL-xb-0sk">
+                                <rect key="frame" x="103" y="140" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Zoe-S1-kOC" appends="YES" id="n6g-Sl-To8"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-1-1" translatesAutoresizingMaskIntoConstraints="NO" id="oqe-Ad-PEd">
+                                <rect key="frame" x="103" y="233" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HYs-fP-N5b" appends="YES" id="0Bf-n4-qj7"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-1-2" translatesAutoresizingMaskIntoConstraints="NO" id="0HT-fG-A4j">
+                                <rect key="frame" x="103" y="326" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="FpS-f3-2Ab" appends="YES" id="m2w-Kl-GMD"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-1-3" translatesAutoresizingMaskIntoConstraints="NO" id="tsW-dY-lyQ">
+                                <rect key="frame" x="103" y="419" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Tp7-zx-Pnr" appends="YES" id="GIs-MT-S6e"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-1-4" translatesAutoresizingMaskIntoConstraints="NO" id="u8c-CX-vFF">
+                                <rect key="frame" x="103" y="512" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="MYj-3R-Q1b" appends="YES" id="JEV-DM-wpE"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-2-0" translatesAutoresizingMaskIntoConstraints="NO" id="hfb-eO-DBp">
+                                <rect key="frame" x="196" y="140" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="G2f-Nb-vqi" appends="YES" id="gSt-cg-XOu"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-2-1" translatesAutoresizingMaskIntoConstraints="NO" id="D01-Eb-efb">
+                                <rect key="frame" x="196" y="233" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Q3q-bS-l7i" appends="YES" id="qPh-b6-WLB"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-2-2" translatesAutoresizingMaskIntoConstraints="NO" id="EUa-6r-AEJ">
+                                <rect key="frame" x="196" y="326" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="IXm-p0-blh" appends="YES" id="vH6-9b-c0S"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-2-3" translatesAutoresizingMaskIntoConstraints="NO" id="93S-Oj-fLj">
+                                <rect key="frame" x="196" y="419" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ewD-xO-K9x" appends="YES" id="asO-BP-2ej"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-3-0" translatesAutoresizingMaskIntoConstraints="NO" id="h8z-DT-BaH">
+                                <rect key="frame" x="289" y="140" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="yNl-Qp-ukU" appends="YES" id="14y-Jz-xbY"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-3-1" translatesAutoresizingMaskIntoConstraints="NO" id="RXM-Yi-83D">
+                                <rect key="frame" x="289" y="233" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="PP7-OG-F3n" appends="YES" id="a3E-rO-Wfb"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-3-2" translatesAutoresizingMaskIntoConstraints="NO" id="GVU-o2-LDi">
+                                <rect key="frame" x="289" y="326" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="vwn-uO-DKY" appends="YES" id="zsy-VG-w2u"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-3-3" translatesAutoresizingMaskIntoConstraints="NO" id="ENA-1Q-7Ep">
+                                <rect key="frame" x="289" y="419" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="cb5-oj-DQs" appends="YES" id="A1r-zF-onJ"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-pixabay-163077-2-4" translatesAutoresizingMaskIntoConstraints="NO" id="9QJ-1O-raF">
+                                <rect key="frame" x="196" y="512" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wrX-3s-qfp" appends="YES" id="qCd-Xd-j6Q"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="syn-Lz-kk7">
+                                <rect key="frame" x="289" y="512" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="LabelName" destination="zdx-S8-PZE" id="mWP-Bb-FBi"/>
+                        <outlet property="holeImg" destination="syn-Lz-kk7" id="6j2-7K-icj"/>
+                        <outlet property="img1" destination="xOd-M7-qK2" id="Tj9-ll-oRB"/>
+                        <outlet property="img10" destination="0HT-fG-A4j" id="oiX-H2-Y7p"/>
+                        <outlet property="img11" destination="EUa-6r-AEJ" id="bVM-OU-ssa"/>
+                        <outlet property="img12" destination="GVU-o2-LDi" id="V7D-Jp-kQ1"/>
+                        <outlet property="img13" destination="JUQ-7H-i19" id="mql-WL-HfT"/>
+                        <outlet property="img14" destination="tsW-dY-lyQ" id="Umy-G4-XCA"/>
+                        <outlet property="img15" destination="93S-Oj-fLj" id="yUf-nr-pwX"/>
+                        <outlet property="img16" destination="ENA-1Q-7Ep" id="md3-9Z-hHN"/>
+                        <outlet property="img17" destination="01P-BC-VEu" id="vMi-MF-yDo"/>
+                        <outlet property="img18" destination="u8c-CX-vFF" id="3mP-bm-5dd"/>
+                        <outlet property="img19" destination="9QJ-1O-raF" id="9Mb-z8-9vT"/>
+                        <outlet property="img2" destination="CqL-xb-0sk" id="Txc-2Z-uDK"/>
+                        <outlet property="img3" destination="hfb-eO-DBp" id="yho-tA-LJ3"/>
+                        <outlet property="img4" destination="h8z-DT-BaH" id="Yov-io-Bqr"/>
+                        <outlet property="img5" destination="cqC-MP-cwh" id="bbk-zp-oKj"/>
+                        <outlet property="img6" destination="oqe-Ad-PEd" id="9yd-LW-w1n"/>
+                        <outlet property="img7" destination="D01-Eb-efb" id="4f5-xA-Lzu"/>
+                        <outlet property="img8" destination="RXM-Yi-83D" id="6ht-RU-EBo"/>
+                        <outlet property="img9" destination="JUQ-1n-AmP" id="vgN-dQ-yQL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="3n9-uF-HZy">
+                    <connections>
+                        <action selector="tap1:" destination="BYZ-38-t0r" id="aSx-Vm-zyF"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Zoe-S1-kOC">
+                    <connections>
+                        <action selector="tap2:" destination="BYZ-38-t0r" id="Yex-vk-BTL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="G2f-Nb-vqi">
+                    <connections>
+                        <action selector="tap3:" destination="BYZ-38-t0r" id="YYM-Bi-gWI"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="yNl-Qp-ukU">
+                    <connections>
+                        <action selector="tap4:" destination="BYZ-38-t0r" id="GVX-gS-eVI"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="vHs-b9-Klh">
+                    <connections>
+                        <action selector="tap5:" destination="BYZ-38-t0r" id="EDF-ho-GbM"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="HYs-fP-N5b">
+                    <connections>
+                        <action selector="tap6:" destination="BYZ-38-t0r" id="bLr-Fv-pmd"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Q3q-bS-l7i">
+                    <connections>
+                        <action selector="tap7:" destination="BYZ-38-t0r" id="dgx-QP-YYW"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="PP7-OG-F3n">
+                    <connections>
+                        <action selector="tap8:" destination="BYZ-38-t0r" id="45L-0s-5Tp"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Vft-cD-uZd">
+                    <connections>
+                        <action selector="tap9:" destination="BYZ-38-t0r" id="awy-y4-VNP"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="FpS-f3-2Ab">
+                    <connections>
+                        <action selector="tap10:" destination="BYZ-38-t0r" id="ujO-eB-gRc"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="IXm-p0-blh">
+                    <connections>
+                        <action selector="tap11:" destination="BYZ-38-t0r" id="G1g-YY-nIi"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="vwn-uO-DKY">
+                    <connections>
+                        <action selector="tap12:" destination="BYZ-38-t0r" id="t70-Jy-tFX"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="AYu-JL-nEL">
+                    <connections>
+                        <action selector="tap13:" destination="BYZ-38-t0r" id="YWI-JF-YzL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Tp7-zx-Pnr">
+                    <connections>
+                        <action selector="tap14:" destination="BYZ-38-t0r" id="kdN-rJ-lg0"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ewD-xO-K9x">
+                    <connections>
+                        <action selector="tap15:" destination="BYZ-38-t0r" id="bbd-Ab-pN9"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="cb5-oj-DQs">
+                    <connections>
+                        <action selector="tap16:" destination="BYZ-38-t0r" id="Wks-mO-ivX"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ibU-QF-7w3">
+                    <connections>
+                        <action selector="tap17:" destination="BYZ-38-t0r" id="v65-9a-L4q"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="MYj-3R-Q1b">
+                    <connections>
+                        <action selector="tap18:" destination="BYZ-38-t0r" id="L7r-Fe-B1w"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wrX-3s-qfp">
+                    <connections>
+                        <action selector="tap19:" destination="BYZ-38-t0r" id="0Sg-Vp-1RM"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-24.615384615384613" y="67.535545023696685"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pexels-pixabay-163077-0-0" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-0-1" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-0-2" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-0-3" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-0-4" width="534" height="535"/>
+        <image name="pexels-pixabay-163077-1-0" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-1-1" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-1-2" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-1-3" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-1-4" width="534" height="535"/>
+        <image name="pexels-pixabay-163077-2-0" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-2-1" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-2-2" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-2-3" width="534" height="534"/>
+        <image name="pexels-pixabay-163077-2-4" width="534" height="535"/>
+        <image name="pexels-pixabay-163077-3-0" width="535" height="534"/>
+        <image name="pexels-pixabay-163077-3-1" width="535" height="534"/>
+        <image name="pexels-pixabay-163077-3-2" width="535" height="534"/>
+        <image name="pexels-pixabay-163077-3-3" width="535" height="534"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
